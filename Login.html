@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="css/loginfarm.css">
+    <link rel="icon" href="./Assets/Logo/Brand Logo.svg">
+
+
+    <title>Login to Cardalia</title>
+  </head>
+  <body>
+    
+
+    <div class="hero_area">
+      <!-- header section strats -->
+      <section class="ftco-section">
+  
+  
+        <div class="container-fluid px-md-5 nav-top">
+          <div class="row justify-content-between">
+            <div class="col-md-8 order-md-last">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <center><a class="navbar-brand" href="index.html"> <img src="./images/Logo.png" alt="" width="150%" height="80px"> </a></center>
+                </div>
+                <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+                  <form action="#" class="searchform order-lg-last">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control pl-3" placeholder="Search">
+                      <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex">
+              <div class="social-media">
+                <p class="mb-0 d-flex">
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+          <div class="container-fluid">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="./product.html"> <b>Fine Arts</b></a>
+                    <a class="dropdown-item" href="./antiques.html"><b>Antiques</b></a>
+                    <a class="dropdown-item" href="./Collectible.html"><b>Collectibles</b></a>
+                    <a class="dropdown-item" href="furniture.html"><b>Furnitures</b></a>
+                  </div>
+                </li>
+                <li class="nav-item"><a href="./Gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="./About.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="./project.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="./Login.html" class="nav-link">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+
+
+  <div class="d-md-flex half">
+    <div class="bg" style="background-image: url('./css/Banner.jpg');"></div>
+    <div class="contents">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12">
+            <div class="form-block mx-auto">
+              <div class="text-center mb-5">
+              <h3>Login to <strong>BIDSPIRIT</strong></h3>
+              </div>
+              <form action="./Index.html" method="get" onsubmit="return myfun()" >
+                <div class="form-group first">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" placeholder="Enter your User Name" id="username">
+                </div>
+                <div class="form-group first">
+                  <label for="username">E-mail</label>
+                  <input type="email" class="form-control" placeholder="Enter your Email" id="email">
+                </div>
+                <div class="form-group last mb-3">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" placeholder="Your Password" id="password">
+                </div>
+                
+                <div class="d-sm-flex mb-5 align-items-center">
+                  <label class="control control--checkbox mb-3 mb-sm-0"><span class="caption">Remember me</span>
+                    <input class="check" type="checkbox" checked="checked"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                  <span class="ml-auto"><a href="" class="forgot-pass">Forgot Password</a></span> 
+                </div>
+                <p id="para"></p>
+                <input onclick="myfun()" type="submit" value="Log In" class="btn1 btn-block" id="myButton">
+                <div class="">
+                  <a href="https://web.facebook.com/?_rdc=1&_rdr" class="btn btn-block py-2 btn-facebook">
+                    <span class="icon-facebook mr-3"></span> Login with facebook
+                  </a>
+                  <a href="https://accounts.google.com/AddSession/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&authuser=0&theme=glif&flowName=GlifWebSignIn&flowEntry=AddSession" class="btn btn-block py-2 btn-google"><span class="icon-google mr-3"></span> Login with Google</a>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
+    <script>
+      function myfun() {
+        var a=document.getElementById("username").value;
+        var b=document.getElementById("email").value;
+        var c=document.getElementById("password").value;
+        if(a==""){
+          document.getElementById("para").innerHTML="Please Enter a User Name";    
+          document.getElementById("para").style.color="red";
+          return false;    
+        }
+        else if(b==""){
+          document.getElementById("para").innerHTML="Please Enter Email";    
+          document.getElementById("para").style.color="red";   
+          return false;     
+        }
+        else if(c==""){
+          document.getElementById("para").innerHTML="Please Enter Password";    
+          document.getElementById("para").style.color="red";   
+          return false;     
+        }
+        else{
+          document.getElementById("para").innerHTML=""; 
+          document.getElementById("para").style.color="";
+        }
+      }
+    </script>  
+  </body>
+</html>
